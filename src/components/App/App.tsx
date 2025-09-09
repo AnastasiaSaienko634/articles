@@ -42,6 +42,7 @@ export default function App() {
           renderOnZeroPageCount={null}
           forcePage={currentPage}
           containerClassName={css.pagination}
+          activeClassName={css.active}
         />
       )}
     </>
